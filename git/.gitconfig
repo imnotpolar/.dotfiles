@@ -1,0 +1,6 @@
+[user]
+	signingkey = 0x8D79777A3A9379E1
+	email = development@imnotpolar.xyz
+	name = imnotpolar
+[commit]
+	gpgSign = true
