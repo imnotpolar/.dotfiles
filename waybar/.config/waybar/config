@@ -1,0 +1,60 @@
+{
+	"layer":"top",
+	"position":"top",
+	"height":50,
+	"width": 2545,
+	"margin": 0,
+	"spacing":0,
+	"reload_style_on_change":true,
+	"modules-left": [
+		"hyprland/workspaces",
+		"hyprland/window"
+	],
+	"modules-center": [
+		"clock"
+	],
+	"modules-right": [
+		"tray",
+		"wireplumber"
+	],
+	"hyprland/workspaces": {
+		"active-only": false,
+		"all-outputs": false,
+		"format": "{icon}",
+		"format-icons": {
+			"default":"",
+			"active":"",
+			"persistent":"",
+			"empty":""
+		},
+		"persistent-workspaces": {
+			"*": 5,
+		},
+		},
+	"hyprland/window": {
+		"format": "{initialTitle}",
+		"separate-outputs": false,
+		"icon": true,
+		"icon-size": 22,
+		"tooltip": false
+	},
+	"clock": {
+		"interval": 60,
+		"format": "{:%H:%M}",
+		"tooltip": false,
+		"format-alt": "{:%H:%M - %a, %d %b, %Y}"
+	},
+	"tray": {
+		"icon-size": 20,
+		"show-passive-items": false,
+		"spacing": 5
+	},
+	"wireplumber": {
+		"format": "{volume}%",
+		"format-muted": "",
+		"on-click": "pwvucontrol",
+		"scroll-step": 1,
+		"tooltip": false,
+		"max-volume": 100.0
+	}
+}
