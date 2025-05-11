@@ -1,0 +1,25 @@
+# Zen #
+windowrule = pin, class:zen, title:Picture-in-Picture
+windowrule = float, class:zen, title:Picture-in-Picture
+windowrule = noinitialfocus, class:zen, title:Picture-in-Picture
+windowrule = size 544 306, class:zen, title:Picture-in-Picture
+windowrule = move 78.3% 4.35%, class:zen, title:Picture-in-Picture
+windowrule = opacity 0.95, class:zen, title:Picture-in-Picture
+windowrule = noborder, class:zen, title:Picture-in-Picture
+windowrule = noblur, class:zen, title:Picture-in-Picture
+windowrule = maxsize 1280 720, class:zen, title:Picture-in-Picture
+windowrule = minsize 544 306, class:zen, title:Picture-in-Picture
+
+windowrule = float, class:zen, title:Library
+windowrule = center, class:zen, title:Library
+
+# Steam #
+windowrule = float, class:steam, title:Friends List
+windowrule = center 1, class:steam, title:Friends List
+windowrule = float, class:steam, title:Steam Settings
+windowrule = center, class:steam, title:Steam Settings
+
+# FileRoller #
+windowrule = float, class:org.gnome.FileRoller
+windowrule = center, class:org.gnome.FileRoller
+windowrule = size 1280 720, class:org.gnome.FileRoller
